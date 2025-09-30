@@ -34,10 +34,10 @@ export const Hero = () => {
           <div className='text-center md:text-left space-y-6'>
             <div className='inline-block'>
               <h1 className='text-5xl md:text-7xl font-bold text-primary-foreground mb-2 text-glow'>
-                💙 {t('hero.title')}ddddd
+                💙 Flood Guard
               </h1>
               <h2 className='text-3xl md:text-4xl text-cyan-glow animate-pulse-slow'>
-                {t('hero.subtitle')} 🌊
+                Real-time Flood Monitoring & Safety 🌊
               </h2>
             </div>
 
