@@ -2,48 +2,50 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
     <title>
       FloodGuard — Real-time Flood Monitoring & Safety | SAR + AI Flood
       Management
     </title>
     <meta
       name="description"
-      content="FloodSafe turns SAR satellite data and AI into life-saving flood insights for researchers, government, and NGOs in Bangladesh. Monitor floods in 3D, find safe shelters, and save lives."
+      content="FloodGuard turns SAR satellite data and AI into life-saving flood insights for researchers, government, and NGOs in Bangladesh. Monitor floods in 3D, find safe shelters, and save lives."
     />
-    <meta name="author" content="FloodSafe" />
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
-      rel="stylesheet" -->
-    />
+    <meta name="author" content="FloodGuard" />
 
-    <meta property="og:title" content="FloodSafe — From Space to Safety" />
+    <!-- ✅ Use your own icon from /public/floodguard/ -->
+    <link rel="icon" href="/floodguard/favicon.ico" />
+    <link rel="shortcut icon" href="/floodguard/favicon.ico" />
+    <!-- (Optional) Better mobile icon -->
+    <link rel="apple-touch-icon" href="/floodguard/favicon-180.png" />
+
+    <!-- OG/Twitter (optional – update image URLs to your own if you like) -->
+    <meta
+      property="og:title"
+      content="FloodGuard — Real-time Flood Monitoring & Safety"
+    />
     <meta
       property="og:description"
       content="Turn SAR satellite data + AI into life-saving flood insights for Bangladesh"
     />
     <meta property="og:type" content="website" />
-    <!-- <meta
-      property="og:image"
-      content="https://lovable.dev/opengraph-image-p98pqg.png"
-    /> -->
 
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="FloodSafe — From Space to Safety" />
+    <meta
+      name="twitter:title"
+      content="FloodGuard — Real-time Flood Monitoring & Safety"
+    />
     <meta
       name="twitter:description"
       content="SAR + AI flood management platform for Bangladesh"
     />
-    <!-- <meta
-      name="twitter:image"
-      content="https://lovable.dev/opengraph-image-p98pqg.png"
-    /> -->
   </head>
 
   <body>
     <div id="root"></div>
+    <!-- If this is the embedded build under /floodguard/, your built assets will be linked from this HTML.
+         If this is a source (dev) file, your bundler (Vite) will inject the correct script -->
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
